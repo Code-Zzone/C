@@ -86,6 +86,19 @@ nav a:hover {
     color: #ffcc00;
 }
 
+@media (max-width: 1000px) {
+    .large-nav {
+       flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .large-nav a {
+        margin-top: 20px;
+     }
+
+}
+
+
 .hero {
     height: 600px;
     display: flex;
