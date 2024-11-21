@@ -70,6 +70,8 @@ nav {
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+           flex-wrap: wrap;
+        row-gap: 15px;
 }
 
 nav a {
@@ -85,19 +87,6 @@ nav a:hover {
     background-color: #222222;
     color: #ffcc00;
 }
-
-@media (max-width: 1000px) {
-    .large-nav {
-       flex-wrap: wrap;
-        row-gap: 10px;
-    }
-
-    .large-nav a {
-        margin-top: 20px;
-     }
-
-}
-
 
 .hero {
     height: 600px;
